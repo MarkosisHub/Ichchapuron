@@ -1,0 +1,39 @@
+.productDetailsSection {
+  padding: 7rem 0;
+}
+
+.productDetails {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 5rem;
+}
+
+.productDetailsContentLeft {
+  position: relative;
+}
+
+.productDetailsContentLeft img {
+  width: 100%;
+  border: 3px solid #A64B8C;
+  border-radius: 1rem;
+}
+
+.productDetailsContentLeft  .numOfWishlist {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  border: 0;
+  display: inline-block;
+  background-color: #F5F5F5;
+  padding: 1rem 2rem;
+  border-radius: 10rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #B9508F;
+}
+
+.productDetailsContentLeft  .numOfWishlist i {
+  margin-right: 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}

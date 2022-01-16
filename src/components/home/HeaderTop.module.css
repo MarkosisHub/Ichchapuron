@@ -1,0 +1,86 @@
+.headerTopDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerTopLogo {
+  width: 25rem;
+  height: auto;
+  object-fit: contain;
+}
+
+.headerTopSearch {
+  position: relative;
+  flex: 0.6;
+  margin-top: 6rem;
+}
+
+.headerTopSearch input {
+  width: 100%;
+  border: 3px solid #A64B8C;
+  padding: 0.7rem 2rem;
+  border-radius: 10rem;
+  font-size: 1.6rem;
+  color: #000000;
+  font-family: inherit;
+}
+
+.headerTopSearch input::placeholder {
+  color: #B7B4B4;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 0.2rem;
+  right: 0.1rem;
+  background-color: #A64B8C;
+  padding: 1rem 1.5rem;
+  color: #FFFFFF;
+  border-radius: 0 10rem 10rem 0;
+  cursor: pointer;
+}
+
+.searchIcon i {
+  font-size: 1.8rem;
+  color: #FFFFFF;
+}
+
+.headerTopRight {
+  margin-top: 6rem;
+}
+
+.headerTopRight {
+  flex: 0.15;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerTopCart i, .headerTopHeart i, .headerTopUser i {
+  font-size: 2.5rem;
+}
+
+.headerTopCart {
+  position: relative;
+}
+
+.headerTopCounter {
+  position: absolute;
+  top: -0.7rem;
+  right: -0.7rem;
+  background-color: #F21E1D;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 300;
+}

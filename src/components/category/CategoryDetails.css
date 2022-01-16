@@ -1,0 +1,195 @@
+.categoryDetailsSection {
+  padding: 7rem 0;
+}
+
+.categoryDetails {
+  display: grid;
+  grid-template-columns: 30rem 1fr;
+  grid-gap: 5rem;
+}
+
+.categoryContentLeft {
+  font-size: 1.6rem;
+  border-right: 1px solid #868686;
+  padding-right: 5rem;
+}
+
+.categoryDetails .p-panelmenu .p-panelmenu-header > a {
+  padding: 1.25rem;
+  border: 0;
+  color: #6c757d;
+  background: transparent;
+  font-weight: 400;
+  border-radius: 6px;
+  transition: box-shadow 0.2s;
+  font-size: 1.8rem;
+}
+
+.p-panelmenu .p-panelmenu-content {
+  padding: 0.25rem 0;
+  border: 0;
+  background: transparent;
+  color: #495057;
+  margin-bottom: 4px;
+  margin-left: 2rem;
+  border-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  font-size: 1.6rem;
+}
+
+p.menuitem {
+  border: 0;
+}
+
+.p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:focus {
+  outline: 0;
+  outline-offset: 0;
+  box-shadow: 0 0;
+}
+
+.p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:not(.p-disabled):hover {
+  background: transparent;
+}
+
+.p-panelmenu .p-panelmenu-header > a:focus {
+  outline: 0;
+  outline-offset: 0;
+  box-shadow: 0 0;
+}
+
+.p-panelmenu .p-panelmenu-header.p-highlight:not(.p-disabled) > a:hover {
+  background-color: transparent;
+}
+
+.p-panelmenu .p-panelmenu-header:not(.p-highlight):not(.p-disabled) > a:hover {
+  background: transparent;
+  border-color: transparent;
+}
+
+.categoryHeading {
+  border: 1px solid #A64B8C;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin-bottom: 5rem;
+}
+
+.categoryHeading h4 {
+  font-weight: 500;
+  color: #A64B8C;
+  letter-spacing: 1px
+}
+
+.panelMenu {
+  background-color: #FFF8FA;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.p-slider .p-slider-range {
+  background: #FF862E;
+  padding: 2px 0;
+}
+
+.p-slider .p-slider-handle {
+  height: 2rem;
+  width: 2rem;
+  background: #ffffff;
+  border: 3px solid #FF862E;
+  border-radius: 50%;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.p-slider-horizontal .p-slider-handle {
+  top: -0.2rem;
+}
+
+.categoryPriceRange {
+  background-color: #FFF8FA;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-top: 5rem;
+}
+
+.categoryPriceRange p {
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.categorySortingCheckbox {
+  background-color: #F5F9FF;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-top: 5rem;
+}
+
+.singleCategorySortingCheckbox {
+  margin: 1rem 0;
+}
+
+.singleCategorySortingCheckbox label {
+  margin-left: 1rem;
+}
+
+.p-checkbox .p-checkbox-box {
+  border: 2px solid #B0D7FF;
+  background: #ffffff;
+  width: 22px;
+  height: 22px;
+  color: #495057;
+  border-radius: 6px;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+
+.categorySortingCheckbox p {
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.educationalBooks, .storyBooks, .dictionary, .handwritingBooks {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-row-gap: 5rem;
+  grid-column-gap: 3rem;
+}
+
+.educationalBooks a, .storyBooks a, .dictionary a, .handwritingBooks a {
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+  font-size: 1.6rem;
+  border: 2px solid #FD5855;
+  text-align: center;
+  border-radius: 10rem;
+  padding: 1rem;
+  font-weight: 600;
+  transition: all 0.2s ease
+}
+
+.educationalBooks a:hover, .storyBooks a:hover, .dictionary a:hover, .handwritingBooks a:hover {
+  background-image: linear-gradient(to right, #C1517D, #F1565B);
+  color: #FFFFFF;
+}
+
+.educationalBooksTop, .storyBooksTop, .dictionaryTop, .handwritingBooksTop {
+  display: grid;
+  grid-template-columns: 1.5fr 3fr;
+  align-items: center;
+  grid-gap: 5rem;
+  margin: 7rem 0;
+}
+
+.educationalBooksTopHeading, .storyBooksTopHeading, .dictionaryTopHeading, .handWritingBooksTopHeading {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.educationalBooksTopBlock, .storyBooksTopBlock, .dictionaryTopBlock, .handwritingBooksTopBlock {
+  background-color: #D6D6D6;
+  height: 2px;
+}

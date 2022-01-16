@@ -1,0 +1,76 @@
+.popularAndStockSection {
+  padding: 7rem 0;
+}
+
+.popularAndStockDetails {
+  display: grid;
+  grid-template-columns: 47.5% 47.5%;
+  grid-gap: 7rem;
+}
+
+.popularContent {
+  background-color: #fdecf8;
+  padding: 5rem;
+  border-radius: 3rem;
+}
+
+.newInStockContent {
+  background-color: #f1efff;
+  padding: 5rem;
+  border-radius: 3rem;
+}
+
+.popularAndStockDetails .slick-slide img {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.popularAndStockDetails h3 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.popularAndStockDetails p {
+  font-weight: 300;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+.newInStockContent .slick-prev,
+.newInStockContent .slick-next,
+.popularContent .slick-prev,
+.popularContent .slick-next {
+  width: 4rem;
+  height: 4rem;
+  background-color: #ffffff;
+  border-radius: 10rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.newInStockContent .slick-prev, .popularContent .slick-prev {
+  left: -1rem;
+  top: 45%;
+  z-index: 100;
+}
+
+.newInStockContent .slick-next, .popularContent .slick-next {
+  right: -1rem;
+  top: 45%;
+}
+
+.newInStockContent .slick-prev:before, .popularContent .slick-prev:before {
+  content: "\f104";
+  font-family: "FontAwesome";
+  font-weight: 900;
+  color: #000000;
+  font-size: 1.4rem;
+}
+
+.newInStockContent .slick-next:before, .popularContent .slick-next:before {
+  content: "\f105";
+  font-family: "FontAwesome";
+  font-weight: 900;
+  color: #000000;
+  font-size: 1.4rem;
+}

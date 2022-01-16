@@ -1,0 +1,66 @@
+.soulBooksSliderDetails {
+  padding: 7rem 0;
+}
+
+.soulBooksSliderTop {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  grid-gap: 5rem;
+  text-align: center;
+}
+
+.soulBooksSliderTopHeading {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.soulBooksSliderTopBlock {
+  background-color: #70A50F;
+  height: 1px;
+}
+
+.soulBooksSliderName {
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.soulBooksSliderPrice {
+  color: #F21E1D;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.soulBooksSliderReviews i {
+  font-size: 1.2rem;
+  color: #FFBC01;
+  margin-right: 2px;
+}
+
+.soulBooksSliderDetails img {
+  width: 100%;
+}
+
+.soulBooksSliderDetails .soulBooksSliderContent {
+  padding: 0 1rem;
+  margin-bottom: 5rem;
+}
+
+.soulBooksSliderDetails .slick-prev:before,
+.soulBooksSliderDetails .slick-next:before {
+  color: #40008a;
+  opacity: 1;
+  font-size: 2.5rem;
+}
+
+.soulBooksSliderDetails .slick-prev {
+  left: -5rem;
+  top: 43%;
+}
+
+.soulBooksSliderDetails .slick-next {
+  right: -3rem;
+  top: 43%;
+}
+

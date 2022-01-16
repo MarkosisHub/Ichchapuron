@@ -1,0 +1,129 @@
+.footerSection {
+  background-color: #F6F6F6;
+}
+
+.footerTopContent {
+  padding: 7rem 0;
+  display: grid;
+  grid-template-columns: 1.8fr 1fr 1fr 1.8fr;
+  grid-gap: 7rem;
+}
+
+.footerTopContent img {
+  width: 100%;
+}
+
+.footerTopContent p {
+  color: #000;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.footerTopContent h5 {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  margin-bottom: 2.5rem;
+}
+
+
+.footerTopContent ul {
+  list-style-type: none;
+}
+
+.footerTopContent ul li:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+.footerTopContent ul li a {
+  display: inline-block;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+  transition: all 0.3s ease;
+  text-transform: capitalize;
+}
+
+.footerTopContent ul li a:hover {
+  color: #D20020;
+}
+
+.footerTopSocialLinks {
+  text-align: center;
+}
+
+.footerTopSocialLinks a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.footerTopSocialLinks a:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.footerTopSocialLinks a.instagram {
+  color: #FF196E;
+}
+
+.footerTopSocialLinks a.linkedin {
+  color: #172B85;
+}
+
+.footerTopSocialLinks a.twitter {
+  color: #39AFFD;
+}
+
+.footerTopSocialLinks a i {
+  font-size: 3rem;
+}
+
+.footerBottomDetails {
+  background-image: linear-gradient(to right, #A64B8C, #FD5752);
+}
+
+.footerBottomContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.footerBottomContent p {
+  font-size: 2.3rem;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.footerBottomNav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.footerBottomNav ul li:not(:last-child) {
+  margin-right: 2rem;
+}
+
+
+.footerBottomNav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+.footerBottomNav ul li a::before {
+  content: "";
+  display: inline-block;
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 10rem;
+  background-color: #FFBC01;
+  margin-right: 2rem;
+}

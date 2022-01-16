@@ -1,0 +1,81 @@
+.megamenuDetails {
+  background-color: transparent;
+  border: 0;
+  margin-top: 5rem;
+}
+
+.megamenuDetails .p-megamenu-root-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+.megamenuDetails .p-menuitem {
+  position: static;
+  /* display: inline-block !important; */
+}
+
+.megamenuDetails .p-menuitem-link {
+  font-size: 1.8rem;
+  font-weight: 600;
+  position: static;
+  display: inline-block !important;
+}
+
+.megamenuDetails .p-menuitem-link:focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: 0 0;
+}
+
+.megamenuDetails .p-menuitem-link:hover {
+  background-color: transparent !important;
+}
+
+.megamenuDetails .p-menuitem-link .p-menuitem-text {
+  color: #151515 !important;
+}
+
+.megamenuDetails .p-megamenu-panel {
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 0;
+  padding: 2rem 1rem 4rem;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 4rem;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-image: linear-gradient(to top, #b74e82, rgba(230, 86, 100, 0.1)) 1;
+}
+
+.megamenuDetails .p-megamenu-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2rem;
+}
+
+.megamenuDetails .p-megamenu-submenu {
+  width: 100%;
+}
+
+.megamenuDetails .p-megamenu-submenu-header {
+  color: #ff5733;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.megamenuDetails .p-megamenu-submenu .p-menuitem-link {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.megamenuDetails .p-megamenu-submenu .p-menuitem-link .p-menuitem-text {
+  color: #ba4f81 !important;
+}

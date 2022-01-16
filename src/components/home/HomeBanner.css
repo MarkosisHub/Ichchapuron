@@ -1,0 +1,48 @@
+.headerBannerSection {
+  padding: 10rem 0;
+}
+
+.headerBannerDetails {
+  display: grid;
+  grid-template-columns: 65% 27.5%;
+  grid-gap: 10rem;
+  align-items: center;
+}
+
+.headerBannerContentLeft h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.headerBannerContentLeft p {
+  font-size: 2.5rem;
+  color: #000;
+  font-weight: 400;
+  margin-top: 5rem;
+}
+
+.homeBannerBtn {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #b64e83, #fc5753);
+  padding: 1.5rem 3rem;
+  color: #ffffff;
+  border-radius: 10rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 4rem;
+}
+
+.homeBannerBtn i {
+  color: inherit;
+  font-size: 1.6rem;
+  margin-left: 0.5rem;
+}
+
+.headerBannerContentRight img {
+  width: 100%;
+  height: 45rem;
+  object-fit: contain;
+}

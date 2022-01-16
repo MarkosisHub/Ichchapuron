@@ -1,0 +1,28 @@
+.categoryBannerSection {
+  padding: 10rem 0;
+}
+
+.categoryBannerDetails {
+  display: grid;
+  grid-template-columns: 65% 27.5%;
+  grid-gap: 10rem;
+  align-items: center;
+}
+
+.categoryBannerContentLeft h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.categoryBannerContentLeft p {
+  font-size: 2.5rem;
+  color: #000;
+  font-weight: 400;
+  margin-top: 5rem;
+}
+
+.categoryBannerContentRight img {
+  width: 100%;
+  height: 45rem;
+  object-fit: contain;
+}

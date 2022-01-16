@@ -1,0 +1,35 @@
+.categoriesSection {
+  padding: 7rem 0;
+  background-color: #FDF3E9;
+}
+
+.categoriesDetails {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3rem;
+}
+
+.categoriesDetails a {
+  display: block;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #FEF6EC;
+  text-align: center;
+  opacity: 0.9;
+  border: 1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, #ffeddd, #FED68F);
+  padding: 1rem;
+  transition: all 0.2s ease;
+}
+
+.categoriesDetails a:hover {
+  border: 1px solid #FF5750;
+  color: #FF5750;
+}

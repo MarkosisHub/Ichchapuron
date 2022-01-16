@@ -1,0 +1,65 @@
+.bestSellingSliderDetails {
+  padding: 7rem 0;
+}
+
+.bestSellingSliderTop {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  grid-gap: 5rem;
+}
+
+.bestSellingSliderTopHeading {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.bestSellingSliderTopBlock {
+  background-color: #ff196e;
+  height: 1px;
+}
+
+.bestSellingSliderName {
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.bestSellingSliderPrice {
+  color: #F21E1D;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.bestSellingSliderReviews i {
+  font-size: 1.2rem;
+  color: #FFBC01;
+  margin-right: 2px;
+}
+
+.bestSellingSliderDetails img {
+  width: 100%;
+}
+
+.bestSellingSliderDetails .bestSellingSliderContent {
+  padding: 0 1rem;
+  margin-bottom: 5rem;
+}
+
+.bestSellingSliderDetails .slick-prev:before,
+.bestSellingSliderDetails .slick-next:before {
+  color: #40008a;
+  opacity: 1;
+  font-size: 2.5rem;
+}
+
+.bestSellingSliderDetails .slick-prev {
+  left: -5rem;
+  top: 43%;
+}
+
+.bestSellingSliderDetails .slick-next {
+  right: -3rem;
+  top: 43%;
+}
+
