@@ -5,11 +5,11 @@ import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import "./CustomerReview.css";
 import React, { useRef, useState } from "react";
-import { Toast } from "primereact/toast";
+// import { Toast } from "primereact/toast";
 import { FileUpload } from "primereact/fileupload";
-import { ProgressBar } from "primereact/progressbar";
+// import { ProgressBar } from "primereact/progressbar";
 import { Button } from "primereact/button";
-import { Tooltip } from "primereact/tooltip";
+// import { Tooltip } from "primereact/tooltip";
 import { Tag } from "primereact/tag";
 
 const CustomerReview = () => {
@@ -19,13 +19,13 @@ const CustomerReview = () => {
   const fileUploadRef = useRef(null);
   // const [position, setPosition] = useState("center");
 
-  const onUpload = () => {
-    toast.current.show({
-      severity: "info",
-      summary: "Success",
-      detail: "File Uploaded",
-    });
-  };
+  // const onUpload = () => {
+  //   toast.current.show({
+  //     severity: "info",
+  //     summary: "Success",
+  //     detail: "File Uploaded",
+  //   });
+  // };
 
   const onTemplateSelect = (e) => {
     let _totalSize = totalSize;
@@ -77,11 +77,11 @@ const CustomerReview = () => {
 
   const headerTemplate = (options) => {
     const { className, chooseButton, uploadButton, cancelButton } = options;
-    const value = totalSize / 10000;
-    const formatedValue =
-      fileUploadRef && fileUploadRef.current
-        ? fileUploadRef.current.formatSize(totalSize)
-        : "0 B";
+    // const value = totalSize / 10000;
+    // const formatedValue =
+    //   fileUploadRef && fileUploadRef.current
+    //     ? fileUploadRef.current.formatSize(totalSize)
+    //     : "0 B";
 
     return (
       <div
