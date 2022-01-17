@@ -1,0 +1,113 @@
+.customerReviewSection {
+  padding: 7rem 0;
+}
+
+.customerReviewDetails h3 {
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.singleCustomerReview {
+  background-image: linear-gradient(45deg, #fffdfb, #c6eeff);
+  border-radius: 3rem;
+  padding: 3rem;
+  margin: 0 1rem;
+}
+
+.customerReviewSection .slick-slide {
+  padding: 0 3rem;
+}
+
+.singleCustomerPeraAndBooks {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 2rem;
+  align-items: center;
+}
+
+.singleCustomerPeraAndBooks p {
+  font-size: 1.8rem;
+  color: #000;
+  font-weight: 400;
+}
+
+.singleCustomerBooks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+.singleCustomerProfile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.singleCustomerProfile img {
+  margin-right: 3rem;
+}
+
+.customerReviewName {
+  color: #2f2f2f;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.customerReviewDate {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.customerNumOfReviews span {
+  color: #ffbc01;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.reviewFormWrapper {
+ text-align: center;
+}
+
+.reviewFormWrapper .addYoursBtn, .submitBtn {
+  display: inline-block;
+  border: 0;
+  padding: 1.5rem 5rem;
+  font-size: 1.8rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 10rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-image: linear-gradient(to right, #dc536a, #a94d8d);
+  cursor: pointer;
+  margin-top: 5rem;
+}
+
+.reviewForm {
+  padding: 2rem 3rem;
+  text-align: center;
+}
+
+.reviewFormStars {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.reviewFormStars span {
+  color: #ffbc01;
+  font-size: 4rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.reviewForm textarea {
+  width: 100%;
+  padding: 1rem;
+  height: 15rem;
+  resize: vertical;
+  border: 1px solid #DEE2E6;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}

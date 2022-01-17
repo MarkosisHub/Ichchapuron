@@ -60,6 +60,11 @@
   justify-content: space-between;
 }
 
+.headerTopRight a {
+  text-decoration: none;
+  color: #000;
+}
+
 .headerTopCart i, .headerTopHeart i, .headerTopUser i {
   font-size: 2.5rem;
 }

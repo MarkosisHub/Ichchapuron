@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import styles from "./HeaderTop.module.css";
 
 const HeaderTop = () => {
@@ -14,16 +15,16 @@ const HeaderTop = () => {
         </span>
       </div>
       <div className={styles.headerTopRight}>
-        <span className={styles.headerTopCart}>
+        <Link to="/cart" className={styles.headerTopCart}>
           <i className="pi pi-shopping-cart"></i>
           <span className={styles.headerTopCounter}>12</span>
-        </span>
-        <span className={styles.headerTopHeart}>
+        </Link>
+        <Link to="/wishlist" className={styles.headerTopHeart}>
           <i className="pi pi-heart"></i>
-        </span>
-        <span className={styles.headerTopUser}>
+        </Link>
+        <Link to="/user" className={styles.headerTopUser}>
           <i className="pi pi-user"></i>
-        </span>
+        </Link>
       </div>
     </div>
   );

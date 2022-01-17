@@ -16,7 +16,7 @@ const ProductDetails = () => {
             </button>
           </div>
           <div className={styles.productDetailsContentRight}>
-            <h4 className={styles.name}>My heart is a chainsaw</h4>
+            <h3 className={styles.name}>My heart is a chainsaw</h3>
             <p className={styles.author}>By Stephen Graham Jones</p>
             <p className={styles.price}>BDT 145.00</p>
             <p className={styles.description}>
@@ -25,7 +25,7 @@ const ProductDetails = () => {
               optio eum tenetur sunt neque? Ipsam quaerat, eius distinctio
               explicabo aperiam enim debitis voluptates neque.
             </p>
-            <p className={styles.stock}>Stock</p>
+            <p className={styles.stock}>In Stock</p>
             <p className={styles.outOfStock}>Out of Stock</p>
             <div className={styles.numOfReviews}>
               <span className="pi pi-star-fill"></span>
@@ -37,7 +37,7 @@ const ProductDetails = () => {
             <div className={styles.counterCartRead}>
               <div className={styles.counter}>
                 <span className="pi pi-caret-left"></span>
-                <span className="count">1</span>
+                <span className={styles.count}>1</span>
                 <span className="pi pi-caret-right arrow-right"></span>
               </div>
               <div className={styles.cartBtn}>
@@ -48,13 +48,11 @@ const ProductDetails = () => {
                 >
                   Content
                 </Sidebar>
-                <button
+                <button className={styles.addToCartBtn}
                   onClick={(e) => setVisible(true)}
                 >add to cart</button>
               </div>
-              <div className={styles.readOnline}>
-                <button>read online</button>
-              </div>
+                <button className={styles.readOnlineBtn}>read online</button>
             </div>
           </div>
         </div>
