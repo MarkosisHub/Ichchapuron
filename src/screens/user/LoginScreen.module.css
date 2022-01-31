@@ -1,0 +1,158 @@
+
+
+.loginWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loginDetails {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  align-items: center;
+  grid-gap: 5rem;
+}
+
+.loginContentLeft img {
+  margin-bottom: 1rem;
+}
+
+.loginContentLeft h5 {
+  text-transform: uppercase;
+  color: #FD5854;
+}
+
+.loginContentLeft > p {
+  font-size: 1.4rem;
+  margin: 1.5rem 0;
+
+}
+
+.loginForm input {
+  display: block;
+  width: 100%;
+  border: 1px solid #e4e8ec;
+  padding: 1rem 1.3rem;
+  margin-bottom: 2rem;
+  border-radius: 3px;
+}
+
+.loginForm input[type="checkbox"] {
+  width: 2rem;
+  margin-bottom: 0;
+  margin-right: 0.5rem;
+}
+
+.loginForm span {
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.checkboxAndRemember {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.loginForm input:focus {
+  border: 1px solid #53575b;
+}
+
+.loginForm label {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #53575b;
+  margin-bottom: 2px;
+}
+
+.loginForm .loginBtn {
+  border: 0;
+  display: block;
+  width: 100%;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #b64e83, #fc5753);
+  padding: 1.5rem 3rem;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.loginGoogleAndFacebook h6 {
+  text-transform: uppercase;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.loginGoogleAndFacebook h6::before,
+.loginGoogleAndFacebook h6::after {
+  content: "";
+  width: 10rem;
+  height: 1px;
+  display: inline-block;
+  background-color: #ff0e00;
+  position: relative;
+  top: -0.35rem;
+}
+
+.loginGoogleAndFacebook h6::before {
+  margin-right: 1rem;
+}
+
+.loginGoogleAndFacebook h6::after {
+  margin-left: 1rem;
+}
+
+.loginGoogleAndFacebook {
+  text-align: center;
+}
+
+.loginGoogleAndFacebook .facebookBtn,
+.loginGoogleAndFacebook .googleBtn {
+  border: 0;
+  padding: 1rem 1.5rem;
+  color: #fff;
+  border-radius: 2px;
+  font-size: 1.4rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.loginGoogleAndFacebook .facebookBtn i,
+.loginGoogleAndFacebook .googleBtn i {
+  font-size: 1.4rem;
+} 
+
+.loginGoogleAndFacebook .googleBtn {
+  background-color: #eb493b;
+  margin-right: 2rem;
+}
+
+.loginGoogleAndFacebook .facebookBtn {
+  background-color: #4064ac;
+}
+
+.loginGoogleAndFacebook p {
+  text-align: center;
+  margin-top: 2rem;
+  color: #7D7D7D;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+
+.loginGoogleAndFacebook a {
+  text-decoration: none;
+  color: #477FFF;
+  font-weight: 400;
+}
+
+.loginContentRight img {
+  width: 100%;
+  height: 100vh;
+  vertical-align: middle;
+}

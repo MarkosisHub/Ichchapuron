@@ -1,0 +1,115 @@
+.summarySection {
+  padding-bottom: 7rem;
+}
+
+.summaryDetails {
+  background-color: #f9f9f9;
+  padding: 5rem;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.summaryContentLeft {
+  border-right: 1px solid #000000;
+  padding-right: 10rem;
+}
+
+.summaryContentLeft h3 {
+  font-weight: 500;
+  margin-bottom: 5rem;
+}
+
+.summaryListLeft,
+.summaryListRight {
+  list-style: none;
+}
+
+.summaryListLeft li,
+.summaryListRight li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.summaryListLeft li:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.summaryListLeft p,
+.summaryListRight p {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.summaryListLeft input {
+  display: block;
+  border: 1px solid #a64b8c;
+  background-color: transparent;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: #a64b8c;
+}
+
+.summaryListLeft input::placeholder {
+  color: #a64b8c;
+  font-family: inherit;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.summaryListLeft span {
+  display: block;
+  font-size: 1.3rem;
+  color: #878787;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.summaryListLeft .discountPrice {
+  color: #f21e1d;
+}
+
+.summaryListLeft button {
+  display: inline-block;
+  border: 0;
+  text-decoration: none;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #b64e83, #fc5753);
+  padding: 1.3rem 3rem;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.summaryListRight {
+  padding-left: 10rem;
+}
+
+.summaryListRight li:last-child {
+  text-align: center;
+  display: block;
+}
+
+.summaryListRight button {
+  display: inline-block;
+  border: 0;
+  text-decoration: none;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #b64e83, #fc5753);
+  padding: 2rem 3rem;
+  color: #ffffff;
+  border-radius: 10rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: inherit;
+  cursor: pointer;
+  margin-top: 5rem;
+}

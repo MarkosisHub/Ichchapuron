@@ -1,0 +1,158 @@
+
+
+.registrationWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.registrationDetails {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  align-items: center;
+  grid-gap: 5rem;
+}
+
+.registrationContentLeft img {
+  margin-bottom: 1rem;
+}
+
+.registrationContentLeft h5 {
+  text-transform: uppercase;
+  color: #FD5854;
+}
+
+.registrationContentLeft > p {
+  font-size: 1.4rem;
+  margin: 1.5rem 0;
+
+}
+
+.registrationForm input {
+  display: block;
+  width: 100%;
+  border: 1px solid #e4e8ec;
+  padding: 1rem 1.3rem;
+  margin-bottom: 2rem;
+  border-radius: 3px;
+}
+
+.registrationForm input[type="checkbox"] {
+  width: 2rem;
+  margin-bottom: 0;
+  margin-right: 0.5rem;
+}
+
+.registrationForm span {
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.checkboxAndRemember {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.registrationForm input:focus {
+  border: 1px solid #53575b;
+}
+
+.registrationForm label {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #53575b;
+  margin-bottom: 2px;
+}
+
+.registrationForm .registrationBtn {
+  border: 0;
+  display: block;
+  width: 100%;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #b64e83, #fc5753);
+  padding: 1.5rem 3rem;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.registrationGoogleAndFacebook h6 {
+  text-transform: uppercase;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.registrationGoogleAndFacebook h6::before,
+.registrationGoogleAndFacebook h6::after {
+  content: "";
+  width: 10rem;
+  height: 1px;
+  display: inline-block;
+  background-color: #ff0e00;
+  position: relative;
+  top: -0.35rem;
+}
+
+.registrationGoogleAndFacebook h6::before {
+  margin-right: 1rem;
+}
+
+.registrationGoogleAndFacebook h6::after {
+  margin-left: 1rem;
+}
+
+.registrationGoogleAndFacebook {
+  text-align: center;
+}
+
+.registrationGoogleAndFacebook .facebookBtn,
+.registrationGoogleAndFacebook .googleBtn {
+  border: 0;
+  padding: 1rem 1.5rem;
+  color: #fff;
+  border-radius: 2px;
+  font-size: 1.4rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.registrationGoogleAndFacebook .facebookBtn i,
+.registrationGoogleAndFacebook .googleBtn i {
+  font-size: 1.4rem;
+} 
+
+.registrationGoogleAndFacebook .googleBtn {
+  background-color: #eb493b;
+  margin-right: 2rem;
+}
+
+.registrationGoogleAndFacebook .facebookBtn {
+  background-color: #4064ac;
+}
+
+.registrationGoogleAndFacebook p {
+  text-align: center;
+  margin-top: 2rem;
+  color: #7D7D7D;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+
+.registrationGoogleAndFacebook a {
+  text-decoration: none;
+  color: #477FFF;
+  font-weight: 400;
+}
+
+.registrationContentRight img {
+  width: 100%;
+  height: 100vh;
+  vertical-align: middle;
+}

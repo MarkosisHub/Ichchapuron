@@ -1,0 +1,25 @@
+.wishlistBannerSection {
+  background-color: #FFFFFF;
+  padding: 10rem 0;
+}
+
+.wishlistBannerDetails {
+  text-align: center;
+}
+
+.wishlistBannerDetails img {
+  margin-bottom: 3rem;
+  display: inline-block;
+}
+
+.wishlistBannerDetails h2 {
+  color: #464646;
+  margin-bottom: 3rem;
+}
+
+.wishlistBannerDetails a {
+  color: #464646;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 300;
+}

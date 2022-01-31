@@ -1,0 +1,22 @@
+.adminProductCreateSection {
+  background-color: #f9fbfd;
+}
+
+.adminProductCreateDetails {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 26rem 1fr;
+  grid-gap: 5rem;
+}
+
+.adminProductCreateForm {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+}
+
+.adminProductCreateForm input, .adminProductCreateForm textarea {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 1.2rem;
+}

@@ -1,0 +1,9 @@
+.adminNavbarDetails {
+  margin-bottom: 3rem;
+}
+
+.adminNavbarDetails .p-menubar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

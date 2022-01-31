@@ -1,0 +1,38 @@
+.shippingFormSection {
+  padding: 7rem 0;
+}
+
+.shippingFormDetails input,
+.shippingFormDetails select {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  color: #393939;
+  font-weight: 600;
+  border: 2px solid #b1b1b1;
+  border-radius: 5px;
+}
+
+.shippingFormDetails .doubleGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 3rem;
+}
+
+.shippingFormDetails input::placeholder {
+  color: #5b5b5b;
+  font-family: inherit;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.shippingFormDetails .p-accordion-tab {
+  margin-bottom: 5rem !important;
+}
+
+.shippingFormDetails .p-accordion-content {
+  padding: 0;
+  border: 0;
+  padding-left: 2rem;
+}

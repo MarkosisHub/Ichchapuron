@@ -1,0 +1,75 @@
+.adminOrderInformationSection {
+  padding: 4rem 0;
+}
+
+.adminOrderInformationDetails {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3rem;
+}
+
+.singleAdminOrderInformation {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.singleAdminOrderInformation span {
+  font-size: 2rem;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: #f8f9fa;
+  margin-right: 2rem;
+}
+
+.singleAdminOrderInformation h6 {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.singleAdminOrderInformation p {
+  font-size: 1.4rem;
+  text-transform: lowercase;
+  margin-top: 0.5rem;
+}
+
+.orderCreated {
+  background-color: #D1E7DD;
+  border: 1px solid #BADBCC;
+}
+
+.orderCreated span {
+  background-color: #198754;
+}
+
+.orderName {
+  background-color: #F8D7DA;
+  border: 1px solid #F5C2C7;
+}
+
+.orderName span {
+  background-color: #DC3545;
+}
+
+.orderMail {
+  background-color: #FFF3CD;
+  border: 1px solid #FFECB5;
+}
+
+.orderMail span {
+  background-color: #FFC107;
+}
+
+.orderContact {
+  background-color: #CFF4FC;
+  border: 1px solid #B6EFFB;
+}
+
+.orderContact span {
+  background-color: #0DCAF0;
+}

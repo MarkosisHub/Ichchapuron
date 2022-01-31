@@ -1,0 +1,50 @@
+.adminTotalOverviewSection {
+  background-color: transparent;
+}
+
+.adminTotalOverviewDetails .p-tabview-nav {
+  justify-content: flex-start;
+}
+
+.adminTotalOverviewContent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-column-gap: 10rem;
+  grid-row-gap: 5rem; */
+  grid-gap: 3rem;
+}
+
+.adminTotalOverviewContent > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #F0F0F0;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.adminTotalOverviewDetails .p-tabview-panels {
+  background-color: transparent;
+}
+
+.adminTotalOverviewDetails .p-tabview-nav-link {
+  font-size: 1.4rem !important;
+  padding: 1.5rem 2rem !important;
+}
+
+.adminTotalOverviewContent p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+
+.adminTotalOverviewContent h6 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.adminTotalOverviewContent span {
+  font-size: 2rem;
+}

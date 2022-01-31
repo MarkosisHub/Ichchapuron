@@ -1,0 +1,25 @@
+.shippingBannerSection {
+  background-color: #FFFFFF;
+  padding: 10rem 0;
+}
+
+.shippingBannerDetails {
+  text-align: center;
+}
+
+.shippingBannerDetails img {
+  margin-bottom: 3rem;
+  display: inline-block;
+}
+
+.shippingBannerDetails h2 {
+  color: #464646;
+  margin-bottom: 3rem;
+}
+
+.shippingBannerDetails a {
+  color: #464646;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 300;
+}

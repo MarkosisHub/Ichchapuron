@@ -20,7 +20,7 @@ const WonderkidBooksSlider = () => {
   };
 
   return (
-    <section clasName="wonderkidBooksSliderSection">
+    <section className="wonderkidBooksSliderSection">
       <div className="wonderkidBooksSliderWrapper container">
         <div className="wonderkidBooksSliderTop">
         <div className="wonderkidBooksSliderTopBlock"></div>

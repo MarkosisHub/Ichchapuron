@@ -1,0 +1,86 @@
+.wishlistProductSection {
+  padding: 7rem 0;
+}
+
+.singleWishlistProductDetails {
+  display: grid;
+  grid-template-columns: 1.2fr 0.5fr;
+  align-items: center;
+  grid-gap: 15rem;
+  border-bottom: 1px solid #FF5750;
+  padding: 5rem 3rem;
+}
+
+
+.singleWishlistProductDetailsLeft {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.singleWishlistProductImage img {
+  vertical-align: middle;
+}
+
+.singleWishlistProductContent {
+  /* flex: 0.7 */
+  margin-left: 5rem;
+}
+
+.singleWishlistProductContent h3 {
+  color: #000000;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.singleWishlistProductContent h4 {
+  color: #000000;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.singleWishlistProductContent p {
+  color: #000000;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+.singleWishlistProductDetailsRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.singleWishlistProductPriceAndCart p {
+  color: #F21E1D;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.singleWishlistProductPriceAndCart button {
+  display: inline-block;
+  border: 0;
+  text-decoration: none;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #b64e83, #fc5753);
+  padding: 1.8rem 2.3rem;
+  color: #ffffff;
+  border-radius: 10rem;
+  font-weight: 600;
+  font-family: inherit;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.singleWishlistProductDeleteBtn button {
+  border: 0;
+  background-color: transparent;
+  color: #B5B5B5;
+  font-size: 2.5rem;
+  font-weight: 300;
+  cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.adminProductListSection {
+  background-color: #f9fbfd;
+}
+
+.adminProductListDetails {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 26rem 1fr;
+  grid-gap: 5rem;
+}

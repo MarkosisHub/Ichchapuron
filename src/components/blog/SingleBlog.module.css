@@ -1,0 +1,39 @@
+.singleBlogSection {
+  padding: 7rem 0;
+}
+
+.singleBlogDetails img {
+  display: block;
+  width: 100%;
+  height: 50rem;
+  object-fit: cover;
+  margin-bottom: 5rem;
+}
+
+.singleBlogDetails h2 {
+  color: #2D3748;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.singleBlogWriterAndDate span {
+  display: inline-block;
+}
+
+.singleBlogWriter {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-right: 2rem;
+}
+
+.singleBlogDate {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #718096;
+}
+
+.singleBlogDetails p {
+  font-size: 1.4rem;
+  color: #718096;
+  margin-top: 5rem;
+}

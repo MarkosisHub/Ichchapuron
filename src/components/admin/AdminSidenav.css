@@ -1,0 +1,13 @@
+.sideNavSection {
+  position: sticky;
+  top: 3rem;
+  height: 94vh;
+  overflow: auto;
+  background-color: #f6f7ff;
+  border-radius: 3px;
+}
+
+.sideNavDetails img {
+  width: 15rem;
+  padding: 2rem;
+}

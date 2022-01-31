@@ -1,0 +1,66 @@
+.adminTotalAccountSection {
+  padding: 4rem 0;
+}
+
+.adminTotalAccountDetails {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10rem;
+}
+
+.singleAdminTotalAccount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+  border-radius: 5px;
+}
+
+.singleAdminTotalAccount span {
+  font-size: 2.2rem;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: #F8F9FA;
+}
+
+.singleAdminTotalAccount h6 {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.singleAdminTotalAccount p {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+}
+
+.totalSales {
+  background-color: #D1E7DD;
+  border: 1px solid #BADBCC;
+}
+
+.totalSales span {
+  background-color: #4af7a6;
+}
+
+.totalExpenses {
+  background-color: #F8D7DA;
+  border: 1px solid #F5C2C7;
+}
+
+.totalExpenses span {
+  background-color: #fc2f40;
+}
+
+.totalRevenue {
+  background-color: #CFF4FC;
+  border: 1px solid #B6EFFB;
+}
+
+.totalRevenue span {
+  background-color: #2fd3f8;
+}

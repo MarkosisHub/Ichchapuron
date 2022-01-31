@@ -20,7 +20,7 @@ const SoulBooksSlider = () => {
   };
 
   return (
-    <div clasName="soulBooksSliderSection">
+    <div className="soulBooksSliderSection">
       <div className="soulBooksSliderWrapper container">
         <div className="soulBooksSliderTop">
         <div className="soulBooksSliderTopBlock"></div>

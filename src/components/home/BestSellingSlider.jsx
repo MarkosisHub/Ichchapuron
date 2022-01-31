@@ -20,7 +20,7 @@ const BestSellingSlider = () => {
   };
 
   return (
-    <section clasName="bestSellingSliderSection">
+    <section className="bestSellingSliderSection">
       <div className="bestSellingSliderWrapper container">
         <div className="bestSellingSliderTop">
           <h3 className="bestSellingSliderTopHeading">Best selling books</h3>
